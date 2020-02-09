@@ -27,7 +27,7 @@ class Book
      */
         
     public Book(String bookAuthor, String bookTitle, int bookPages, boolean bookCourseText)
-    
+    // Use boolean parameter in this form --> new Boolean("True")
     {
         this.author = bookAuthor;
         this.title = bookTitle;
