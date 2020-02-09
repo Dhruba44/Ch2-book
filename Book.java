@@ -67,7 +67,7 @@ class Book
      */
     public void printDetails()
     {
-        System.out.println ("Title: " + title + "  Author: " + author + "  Pages: " + pages);
+        System.out.println ("Title: " + title + "|  Author: " + author + "|  Pages: " + pages);
     }
     
     /**
@@ -92,9 +92,9 @@ class Book
     public void printDetailsModified()
     {
         if (refNumber.length() > 0 ){        
-            System.out.println ("Title: " + title + "  Author: " + author + "  Pages: " + pages + "  Refnumber:" + refNumber);
+            System.out.println ("Title: " + title + "|  Author: " + author + "|  Pages: " + pages + "|  Refnumber:" + refNumber);
         }else {
-            System.out.println ("Title: " + title + "  Author: " + author + "  Pages: " + pages + "  Refnumber:" + "ZZZ");
+            System.out.println ("Title: " + title + "|  Author: " + author + "|  Pages: " + pages + "|  Refnumber:" + "ZZZ");
         }
     }
     
@@ -124,7 +124,7 @@ class Book
      */
     public void getBorrowed ()
     {
-        System.out.println ("Title: " + title + "  Author: " + author + "  Pages: " + pages + "  Refnumber:" + refNumber + "  Numbers of times borrowed" + borrowed);
+        System.out.println ("Title: " + title + "|  Author: " + author + "|  Pages: " + pages + "|  Refnumber:" + refNumber + "|  Numbers of times borrowed" + borrowed);
     }
     
     /**
